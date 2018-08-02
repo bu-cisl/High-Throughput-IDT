@@ -3,7 +3,7 @@ MATLAB implementation of High throughput intensity diffraction tomography
 
 ### Getting Started
 This code is based on the paper "High throughput intensity diffraction tomography with a computational microscope" [PDF](https://www.osapublishing.org/boe/abstract.cfm?uri=boe-9-5-2130
-). It implements closed-form inversion based on Tikhoniv regularization to recover 3D phase and absorption from 2D intensity measurements.
+). It implements closed-form inversion based on Tikhonov regularization to recover 3D phase and absorption from 2D intensity measurements.
 
 ### Running the code
 MATLAB is required to run this code
