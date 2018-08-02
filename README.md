@@ -26,4 +26,4 @@ Reconstruction of unstained MCF-7 cancer cells. (a) The full FOV PhC image (40x,
 ![Alt Text](/images/figure_3.png)
 
 ## License
-This project is licensed under the GNU General Public License v3- see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the GNU General Public License v3- see the [LICENSE.md](LICENSE.md) file for details
