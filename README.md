@@ -19,6 +19,10 @@ Intensity diffraction tomography from angled illumination. (a) The setup consist
 
 ![Alt Text](/images/figure_1.png)
 
-## License
+### Results
+Reconstruction of unstained MCF-7 cancer cells. (a) The full FOV PhC image (40$\times$, 0.65NA).  (b) Phase reconstructions on a few cell regions, demonstrating its versatility and robustness in reconstructing both thin and thick samples.  (c) Phase reconstruction of a dense cell cluster across multiple slices.  The comparison with the physically scanned PhC images demonstrates that our IDT technique provides similar lateral resolution and axial sectioning capability.  (d)  Phase reconstruction of the cell clusters using symmetric and pseudorandom illumination patterns.  Our IDT framework allows flexibly designing the illumination pattern and the number of LEDs used.  The reconstruction algorithm produces high quality phase recovery as the number of images used is reduced, and remains robust even when the number of images is much fewer than the number of unknowns. 
 
+![Alt Text](/images/figure_3.png)
+
+## License
 This project is licensed under the GNU General Public License v3- see the [LICENSE.md](LICENSE.md) file for details
