@@ -1,4 +1,3 @@
-% THIS IS ACTUALLY uvz4
 function [ImagTransFunc,RealTransFunc] = ...
     TransferFunction_3D_uvz3(lambda,S,Sf,P,Pf,z,dz,Fx,Fy,ps,RI)
 % illumination-dependent normalized Weak Object Transfer Function
