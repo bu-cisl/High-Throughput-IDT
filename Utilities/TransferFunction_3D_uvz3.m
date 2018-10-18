@@ -41,7 +41,7 @@ IF = @(x) ifft2(x);
 % constants in the transfer functions
 %% Lei's note: Lei found a few factors are missing in the code
 k0 = 2*pi/lambda;
-const = k0^2*dz;  
+const = (1/2)*k0^2*dz;  
 
 %% modified by Lei Tian on 7/6/17
 % take real part to remove the evanescent components

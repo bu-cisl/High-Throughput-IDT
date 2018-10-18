@@ -19,7 +19,6 @@
 %       ImaginaryTransferFunction = weak absorption transfer function      
 %       RealTransferFunction     = weak phase transfer function
 %
-% Michael Chen, Sep 2015
 
 function [ImagTransFunc,RealTransFunc] = ...
     TransferFunction_3D_uvz2(lambda,S,P,z,dz,Fx,Fy,ps,RI)
@@ -37,7 +36,7 @@ function [ImagTransFunc,RealTransFunc] = ...
     
     % constants in the transfer functions
     %const = -1/lambda^2*dz;
-    const = -1/lambda^2*dz;
+    const = -1/lambda^2*dz*(1/2);
     
 %% include the source flip here. need to fix
 %     Sf = padarray(S,[1,1],'post');
