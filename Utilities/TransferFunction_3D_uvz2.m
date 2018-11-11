@@ -36,7 +36,7 @@ function [ImagTransFunc,RealTransFunc] = ...
     
     % constants in the transfer functions
     %const = -1/lambda^2*dz;
-    const = -1/lambda^2*dz*(1/2);
+    const = -1/lambda^2*dz;
     
 %% include the source flip here. need to fix
 %     Sf = padarray(S,[1,1],'post');
