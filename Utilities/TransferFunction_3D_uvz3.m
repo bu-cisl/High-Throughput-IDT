@@ -44,7 +44,7 @@ const = k0^2*dz;
 
 %% modified by Lei Tian on 7/6/17
 % take real part to remove the evanescent components
-G = real(1./(2*pi*sqrt((RI/lambda)^2-(Fx.^2+Fy.^2))));%%
+G = real(1./(2*pi*RI*sqrt((1/lambda)^2-(Fx.^2+Fy.^2))));%%
 
 
 % init
@@ -54,7 +54,7 @@ RealTransFunc = zeros(M,N,length(z));
 for j = 1:length(z)
     
     %% Lei Tian modified on 7/10/2017
-    prop_phase = exp(1i*2*pi*z(j).*real(sqrt((RI/lambda)^2-(Fx.^2+Fy.^2))));
+    prop_phase = exp(1i*2*pi*RI*z(j).*real(sqrt((1/lambda)^2-(Fx.^2+Fy.^2))));
 
     FPSfph_cFPphG = F(S.*conj(Pf).*prop_phase).*F(P.*conj(prop_phase).*G);
     FPSfph_cFPphG = ifftshift(fftshift(FPSfph_cFPphG));

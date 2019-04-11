@@ -10,7 +10,7 @@
 clc; clear;
 
 %% measured data 
-file_path = 'LED_algera_data';
+file_path = 'LED_algae_data';
 
 %% add directory path of the functions
 addpath(['.\Utilities']);
